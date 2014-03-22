@@ -1,0 +1,4 @@
+SocIntModel
+===========
+
+Social Interaction Model
