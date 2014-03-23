@@ -2,7 +2,7 @@
 \alias{socIntLiklihood}
 \title{socIntLiklihood}
 \usage{
-socIntLiklihood(par, X, Y, WY, W_list, n_vector)
+socIntLiklihood(par, X, Y, Wy, W_list, n_vector)
 }
 \arguments{
   \item{par}{Vector of parameters}
@@ -11,7 +11,7 @@ socIntLiklihood(par, X, Y, WY, W_list, n_vector)
 
   \item{Y}{vector of outcome variables}
 
-  \item{WY}{vector of weighted peers outcome}
+  \item{Wy}{vector of weighted peers outcome}
 
   \item{W_list}{A list of network weighting matrix}
 

@@ -2,14 +2,14 @@
 \alias{socInt.maxLik}
 \title{socInt.maxLik}
 \usage{
-socInt.maxLik(y, x, wy, n, W)
+socInt.maxLik(y, x, Wy, n, W)
 }
 \arguments{
   \item{y}{vector of outcome variables}
 
   \item{x}{vector of rhs variables}
 
-  \item{wy}{vector of weighted peers outcome}
+  \item{Wy}{vector of weighted peers outcome}
 
   \item{n}{vector of network sizes}
 
