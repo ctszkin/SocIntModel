@@ -144,7 +144,7 @@ extractDataFromIgraph = function(f, graph){
   D = as.matrix( get.adjacency(graph))
   W =  generateWeighting(D)
 
-  data = data.frame( sapply(list.vertex.attributes(graph), get.vertex.attribute, graph=graph) )
+  data = do.call(data.frame, sapply(list.vertex.attributes(graph), get.vertex.attribute, graph=graph,simplify = FALSE, USE.NAMES=TRUE) )
 
   x_matrix_list = lapply(seq(length(f)[2]), function(i){
       tmp_f = formula(f, lhs=0,rhs=i)

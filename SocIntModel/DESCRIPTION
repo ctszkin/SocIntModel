@@ -1,7 +1,7 @@
 Package: SocIntModel
 Type: Package
 Title: Social Interaction Model
-Version: 0.1
+Version: 0.1.1
 Date: 2014-03-22
 Author: TszKin Julian Chan <ctszkin@gmail.com>
 Maintainer: TszKin Julian Chan <ctszkin@gmail.com>
